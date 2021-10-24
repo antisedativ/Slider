@@ -110,7 +110,7 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:425px) {
 
     html,
     body {
@@ -119,6 +119,8 @@ p {
     }
 
     img {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.527);
+        padding: 4px;
         width: 200px;
         height: 300px;
     }
@@ -126,7 +128,7 @@ p {
     .wrapper {
         height: 100%;
         align-items: center;
-        padding: 50% 20px;
+        padding: 50% 10px;
     }
 
     .slider {

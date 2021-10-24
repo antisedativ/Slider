@@ -20,7 +20,7 @@ $(document).ready(function () {
         waitForAnimate: false,
         centerMode: false,
         responsive: [{ // adaptive
-            breakpoint: 575,
+            breakpoint: 425,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
