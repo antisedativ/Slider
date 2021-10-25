@@ -35,12 +35,10 @@ p {
     max-width: 100%;
 }
 
-/* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
 }
 
-/* Лента слайдов */
 .slick-track {
     display: flex;
     align-items: flex-start;
@@ -66,7 +64,6 @@ p {
     border-radius: 50%;
 }
 
-/* Активная точка */
 .slick-dots li.slick-active button {
     background-color: #000;
 }

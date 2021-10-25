@@ -3,23 +3,23 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
         adaptiveHeight: false,
-        slidesToShow: 4, // Вот тут изменять кол-во показанных слайдов
+        slidesToShow: 4,
         slidesToScroll: 4,
-        speed: 1000, // Скорость скрола
-        easing: 'ease', // Настроить анимацию слайдов
+        speed: 1000,
+        easing: 'ease',
         infinite: true,
         initialSlide: 0,
-        autoplay: true, // auto playing
+        autoplay: true,
         autoplaySpeed: 10000,
         pauseOnFocus: true,
         pauseOnHover: true,
         pauseOnDotsHover: true,
-        draggable: true, // swipe for pc
+        draggable: true,
         touchThreshold: 10,
         touchMove: true,
         waitForAnimate: false,
         centerMode: false,
-        responsive: [{ // adaptive
+        responsive: [{
             breakpoint: 425,
             settings: {
                 slidesToShow: 2,
