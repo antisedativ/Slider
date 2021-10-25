@@ -17,7 +17,7 @@ $(document).ready(function () {
         draggable: true,
         touchThreshold: 10,
         touchMove: true,
-        waitForAnimate: false,
+        waitForAnimate: true,
         centerMode: false,
         responsive: [{
             breakpoint: 425,
